@@ -1,5 +1,5 @@
 cards:
-  message: "Welcome to EazyBank cards QA related local APIs "
+  message: "Welcome to EazyBank cards related QA APIs "
   environment: "QA"
   contactDetails:
     name: "Amaal Grega - Developer"

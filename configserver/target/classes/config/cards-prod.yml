@@ -3,7 +3,7 @@ spring:
     activate:
       on-profile: "prod"
 cards:
-  message: "Welcome to EazyBank cards PROD related local APIs "
+  message: "Welcome to EazyBank cards related PROD APIs "
   environment: "prod"
   contactDetails:
     name: "Amaal Grega - Developer"
