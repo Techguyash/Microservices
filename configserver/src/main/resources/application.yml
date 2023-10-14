@@ -9,5 +9,8 @@ spring:
         native:
           search-locations: "file:///D:/Microservices/fileSystemConfig"
 
+
 server:
   port: 8071
+encrypt:
+  key: "c0M9L3Xk3yC0Mb1nA7I0N"

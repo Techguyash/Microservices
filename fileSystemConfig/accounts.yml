@@ -5,7 +5,8 @@ accounts:
   message: "Welcome to EazyBank default accounts related local APIs"
   contactDetails:
     name: "Dragos Lech - Developer"
-    email: "dragos@eazybank.com"
+    email: "{cipher}18f82a3cf3ac341d92c1cdb3156da3915aa6cb37aa7789694c755082eb95b3a19003cdc52d767f6582bd5a77d6072dea"
+    #email: dragos@eazybank.com
   onCallSupport:
     - (412) 419-3491
     - (915) 382-1932
