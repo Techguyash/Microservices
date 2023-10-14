@@ -9,6 +9,11 @@ spring:
         native:
           search-locations: "file:///D:/Microservices/fileSystemConfig"
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 
 server:
   port: 8071

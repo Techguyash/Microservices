@@ -1,9 +1,7 @@
-spring:
-  config:
-    activate:
-      on-profile: "prod"
+build:
+  version: "1.1"
 cards:
-  message: "Welcome to EazyBank cards PRODUCTIONs related local APIs "
+  message: "Welcome to EazyBank cards related production APIs "
   environment: "prod"
   contactDetails:
     name: "Amaal Grega - Developer"
