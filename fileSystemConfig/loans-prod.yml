@@ -3,7 +3,7 @@ build:
 
 
 loans:
-  message: "Welcome to EazyBank loans related PROD APIs "
+  message: "Welcome to EazyBank PROD loans related local APIs "
   environment: "prod"
   contactDetails:
     name: "Amaal Grega - Manager"

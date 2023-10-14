@@ -1,10 +1,6 @@
-spring:
-  config:
-    activate:
-      on-profile: "prod"
 cards:
-  message: "Welcome to EazyBank cards related PROD APIs "
-  environment: "prod"
+  message: "Welcome to EazyBank cards QA related local APIs "
+  environment: "QA"
   contactDetails:
     name: "Amaal Grega - Developer"
     email: "amaal@eazybank.com"
