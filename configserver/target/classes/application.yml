@@ -2,18 +2,32 @@ spring:
   application:
     name: "configserver"
   profiles:
-    active: native
+    active: git
   cloud:
     config:
       server:
-        native:
-          search-locations: "file:///D:/Microservices/fileSystemConfig"
+        git:
+          uri: https://github.com/Techguyash/microservice-config.git
+          clone-on-start: true
+          default-label: main
+#        native:
+#          search-locations: "file:///D:/Microservices/fileSystemConfig"
 
 management:
   endpoints:
     web:
       exposure:
         include: "*"
+  health:
+    readiness-state:
+      enabled: true
+    liveness-state:
+      enabled: true
+  endpoint:
+    health:
+      probes:
+        enabled: true
+
 
 server:
   port: 8071

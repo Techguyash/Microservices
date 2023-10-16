@@ -13,6 +13,7 @@
 	<artifactId>configserver</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>configserver</name>
+	<packaging>jar</packaging>
 	<description>Configuration Server for Bank Microservices</description>
 	<properties>
 		<java.version>17</java.version>
@@ -26,10 +27,6 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-config-server</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-bus-amqp</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
