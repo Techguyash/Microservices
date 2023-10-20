@@ -1,5 +1,6 @@
 package com.ms.accounts.mapper;
 
+import com.ms.accounts.dto.CustomerDetailsDto;
 import com.ms.accounts.dto.CustomerDto;
 import com.ms.accounts.entities.Customer;
 
@@ -14,6 +15,13 @@ public class CustomerMapper {
         customerDto.setEmail(customer.getEmail());
         customerDto.setMobileNumber(customer.getMobileNumber());
         return customerDto;
+    }
+
+    public static CustomerDetailsDto mapToCustomerDetailsDto(Customer customer, CustomerDetailsDto customerDetailsDto) {
+        customerDetailsDto.setName(customer.getName());
+        customerDetailsDto.setEmail(customer.getEmail());
+        customerDetailsDto.setMobileNumber(customer.getMobileNumber());
+        return customerDetailsDto;
     }
 
     public static Customer mapToCustomer(CustomerDto customerDto, Customer customer) {
