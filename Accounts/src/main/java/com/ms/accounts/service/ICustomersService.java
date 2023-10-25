@@ -8,5 +8,5 @@ import com.ms.accounts.dto.CustomerDetailsDto;
  * @Time 12:00 PM
  */
 public interface ICustomersService {
-    CustomerDetailsDto fetchCustomerDetails(String mobileNumber);
+    CustomerDetailsDto fetchCustomerDetails(String mobileNumber, String correlationId);
 }

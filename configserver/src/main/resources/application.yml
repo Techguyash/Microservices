@@ -10,6 +10,8 @@ spring:
           uri: https://github.com/Techguyash/microservice-config.git
           clone-on-start: true
           default-label: main
+          timeout: 5
+          force-pull: true
 #        native:
 #          search-locations: "file:///D:/Microservices/fileSystemConfig"
 
@@ -31,5 +33,5 @@ management:
 
 server:
   port: 8071
-encrypt:
-  key: "c0M9L3Xk3yC0Mb1nA7I0N"
+#encrypt:
+#  key: "c0M9L3Xk3yC0Mb1nA7I0N"

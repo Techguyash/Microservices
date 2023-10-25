@@ -48,14 +48,20 @@
 
 	<build>
 		<plugins>
+
+			<plugin>
+				<groupId>com.google.cloud.tools</groupId>
+				<artifactId>jib-maven-plugin</artifactId>
+				<version>3.4.0</version>
+				<configuration>
+					<to>
+						<image>techguyash/${project.artifactId}</image>
+					</to>
+				</configuration>
+			</plugin>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<image>
-						<name>eazybytes/${project.artifactId}</name>
-					</image>
-				</configuration>
 			</plugin>
 		</plugins>
 	</build>
