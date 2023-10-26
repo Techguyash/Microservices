@@ -40,6 +40,10 @@ management:
         enabled: true
     shutdown:
       enabled: true
+  metrics:
+    tags:
+      application: ${spring.application.name}
+
 eureka:
   client:
     register-with-eureka: true
